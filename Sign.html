@@ -1,0 +1,68 @@
+<html>
+<head>
+
+  <title>Sign Up Form</title>
+  <style>
+
+    .form-container {
+      width: 500px;
+      margin: auto;
+      text-align: center;
+      padding: 30px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+   
+    .form-container h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    
+    .form-container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: blue;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  
+    .error-message {
+      color: red;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+  <h1><center>Welcome To Car Rental Service</center></h1>
+    <h1>Sign Up</h1>
+    <form>
+      <input type="text" placeholder="First Name" required>
+      <input type="text" placeholder="Last Name" required>
+      <input type="text" placeholder="Mobile Number" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+	  <input type="submit" value="Sign Up">
+	  <a href="file:///C:/xampp/htdocs/LOGIN.html" target="_blank"><input type="submit" value="Login"></a>
+    </form>
+    <div class="error-message"></div>
+  </div>
+</body>
+</html>
